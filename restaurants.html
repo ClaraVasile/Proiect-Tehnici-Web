@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>SEEk & Eat</title>
+</head>
+
+<body style="background-color:rgb(0, 0, 0)">
+
+    <div id="coperta" class="cover-container">
+        <div class="cover-box imgwrap">
+            <figure>
+                <img src='cover.jpg' alt="Imagine si titlu">
+            </figure>
+            <h1 class="title-text-block title-text">SEEK & Eat</h1>
+        </div>
+    </div>
+
+    <div class="navigation-container">
+        <div class="nav-home-box">
+            <nav>
+                <a href="./home.html">Home</a>
+            </nav>
+        </div>
+
+        <div class="nav-restaurants-box">
+            <nav>
+                <a href="./restaurants.html">Restaurants</a>
+            </nav>
+
+        </div>
+
+        <div class="nav-gallery-box">
+            <nav>
+                <a href="./gallery.html">Gallery</a>
+            </nav>
+        </div>
+
+    </div>
+
+    <div class="intro-container">
+        <div class="intro-box">
+            <h1 id="rezultat" class="intro-text">/</h1>
+        </div>
+    </div>
+
+    <div class="review-container">
+        <div class="img-review-box">
+            <img src="linea.jpeg" alt="linea" class="img-review-dimens">
+        </div>
+        <div class="articol-box">
+            <h1 class="articol-text titlu-articol-text">Linea:<br> Closer to the moon</h1>
+            <p class="articol-text"><br>Linea este, probabil, cel mai frumos skybar din București, avand in vedere
+                pozitionarea excelenta pe care o are și priveliștea disponibilă de acolo. Linea ocupă cele două
+                niveluri de sus pe lateralul magazinului Victoria, pe strada Lipscani. Primul nivel este interior, iar
+                nivelul superior este în aer liber, chiar pe acoperiș, acesta fiind skybar-ul adevărat. Cei de la Linea
+                s-au adaptat bine la fluxul mare de oameni, dar asta vine și cu niște dezavantaje: la bar se plătește
+                băutura când o comanzi și nu există serviciu la masa. In cazul mancarii, primești un pager care iți
+                spune când este gata ca să te duci să o ridici. Preturile sunt destul de piperate, reflectandu-se in
+                ele pozitionarea si privelistea. Linea poate fi doar acel bar unde să vă întâlniți rapid cu prietenii
+                pentru un cocktail la înălțime, la ora apusului.
+                <br><br>Adresa: Strada Lipscani 17, București 030167
+                <br><br>Telefon: 0757 824 298
+            </p>
+        </div>
+        <div>
+            <textarea readonly id="test" class="textarea textarea-text">  NEWS
+        
+        Pe timpul iernii, terasa Linea se transforma in Linea Space Station, existand 15 module cu regim walk-in.
+                    </textarea>
+            <button onclick="Editeaza(this)" class="editeaza-button">UPDATE</button>
+            <br>
+            <button onclick="Sterge(this.parentNode)" class="editeaza-button">DELETE</button>
+        </div>
+    </div>
+
+    <div class="review-container">
+        <div class="img-review-box">
+            <img src="frudisiac.jpeg" alt="frudisiac" class="img-review-dimens">
+        </div>
+        <div class="img-review-box">
+            <img src="frudisiac2.jpeg" alt="frudisiac2" class="img-review-dimens">
+        </div>
+        <div class="articol-box">
+            <h1 class="articol-text titlu-articol-text">Frudisiac</h1>
+            <p class="articol-text"><br>Frudisiac este o cafenea cu design nordic si meniu echilibrat de breakfast &
+                brunch. Amenajarea este minimalista. iar atmosfera create de baristii prietenosi si muzica jazzy este
+                una relaxanta si cool. Acesta este genul de loc pentru care iti faci special timp de o cafea inainte
+                de-a ajunge la serviciu, ca sa fii sigur ca iti incepi ziua cu un vibe bun.
+                <br><br>Adresa: Intrarea Bitolia 4 Bucharest, Romania 011677
+                <br><br> Telefon: 021 231 0411
+
+            </p>
+        </div>
+    </div>
+
+    <div class="review-container">
+        <div class="img-review-box">
+            <aside>
+                <img src="frenchrevolution.jpeg" alt="frenchrev2" class="img-review-dimens">
+            </aside>
+        </div>
+        <div class="img-review-box">
+
+            <img src="french2.jpeg" alt="frenchrev2" class="img-review-dimens">
+
+        </div>
+        <div class="articol-box">
+            <article>
+
+                <h1 class="articol-text titlu-articol-text">French Revolution</h1>
+                <p class="articol-text"><br>Este o patiserie ce serveste numeroase sortimente de eclere, ornate in cele
+                    mai spectaculoase moduri si servite in cutii colorate. Eclerele inspirate din Franta sunt facute
+                    din ingrediente naturale si sunt foarte bine vandute, in ciuda pretului lor care este dublu decat
+                    al unui ecler normal. French Revolution este pozitionat in 2 locatii, una din ele dispunand atat de
+                    mese in interior, cat si de terasa.
+                    <br><br> Adresa: Bulevardul Aviatorilor nr.8A, Bucuresti
+                    <br> Strada Constantin Esarcu nr.1, Bucuresti
+                    <br><br>Telefon: 0755 222 800
+
+                </p>
+            </article>
+        </div>
+    </div>
+
+    <div class="review-container">
+        <div class="img-review-box">
+            <img src="social1.jpeg" alt="social1" class="img-review-dimens">
+        </div>
+        <div class="articol-box">
+            <h1 class="articol-text titlu-articol-text">Social 1</h1>
+            <p class="articol-text"><br>Social 1 e unul din restaurantele despre care se vorbește intens. Deși complet
+                centrală și la bulevard, la doi pași de Piața Constituției, zona e extrem de liniștită și perfectă
+                pentru un prânz bun, în special pentru cei care lucrează prin apropiere. Întregul restaurant e foarte
+                frumos decorat, în nuanțe de albastru predominant și tapetat peste tot cu oglinzi învechite. Design-ul
+                modern integrează elementele deja existente foarte bine, păstrând plafonul și podeaua originale. Meniul
+                este unul bogat cu preturi rezonabile si portii generoase. Social 1 este locul potrivit sa iei pranzul
+                sau cina cu prietenii.
+                <br><br>Adresa: Bulevardul Unirii 1, București 030167
+                <br><br>Telefon: 0722348475
+            </p>
+        </div>
+    </div>
+
+    <div class="review-container">
+        <div class="img-review-box">
+            <img src="casaHirscher2.jpeg" alt="casaHR" class="img-review-dimens">
+        </div>
+        <div id="img_Casa" class="img-review-box">
+
+        </div>
+        <div class="articol-box">
+            <h1 class="articol-text titlu-articol-text">Casa Hirscher</h1>
+            <p class="articol-text"><br>Casa Hirscher, cunoscută și sub numele de Casa negustorilor, a fost finalizată
+                în anul 1545, fiind cea mai mare construcție din oraș, la acea vreme. Casa este construită în stilul
+                halelor occidentale, având multe camere și pivnițe boltite, special pentru mărfurile aduse la târgurile
+                săptămânale. In ceea ce priveste mancarea, exista atat un meniu cu specific romanesc cat si unul cu
+                specific italienesc, existand o zona de mese pentru fiecare.
+                <br><br>Adresa: Piața Sfatului Nr. 12-14, Brașov
+                <br><br>Telefon: 0268.410.533
+            </p>
+        </div>
+    </div>
+
+    <div class="form-container">
+        <form>
+            <label for="fname">Your name</label>
+            <input type="text" id="fname" name="name" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="comment" placeholder="Add a comment..">
+
+            <input type="submit" value="Submit">
+        </form>
+
+    </div>
+
+
+
+
+    <div class="footer">
+        <p>| © 2019 SEEK & Eat | Contact information:
+            <a href="mailto:someone@example.com">claragabrielav@gmail.com |</a>
+            | Terms of Use | Privacy Policy | Phone:
+            <a href="tel:0729925900">0729925900</a> |
+        </p>
+    </div>
+
+    <script src="xml2.js"></script>
+    <script src="dom.js"></script>
+</body>
+
+</html>

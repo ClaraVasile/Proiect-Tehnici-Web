@@ -1,0 +1,611 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+  .cover-container{
+    display:flex;
+    order: 1;
+    justify-content: center;
+    flex-direction:column;
+    align-items:center;
+    background-color: black;
+  }
+
+  .cover-box{
+    width: 100%;
+    height: auto; 
+    flex:2;
+    padding:10px;
+    padding-top: 10px;
+    background-color:black; 
+  }
+  .navigation-container{
+    display:flex;
+    width: 100%;
+    height: 144px;
+    order: 2;
+    justify-content: space-around;
+    flex-direction:row;
+    align-items:center;
+    align-content: space-between;
+    background-color: black;
+    margin-top: 10px;
+  }
+  
+  .nav-home-box{
+    width: 250px;
+    height: 25px; 
+    border: 5px white solid;
+    background-color: rgb(252, 162, 103);
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+
+  .nav-restaurants-box{
+    width: 250px;
+    height: 25px; 
+    border: 5px white solid;
+    background-color: rgb(151, 221, 248);
+    padding:10px;
+  }
+
+  .nav-gallery-box{
+    width: 250px;
+    height: 25px; 
+    border: 5px white solid;
+    background-color: rgb(230, 154, 177);
+    padding:10px;
+  }
+  
+
+ .title-text-block {
+    position: absolute;
+    width: 30%;
+    height: 11%;
+    bottom: 33%;
+    left:34%;
+    top: 30%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border: 10px black solid;
+  }
+
+  .title-text{
+   text-align: center;
+    font-family: "Times New Roman";
+    font-size: 70px;
+ }
+  
+  nav a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    display: block;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+ nav a:hover{
+   font-size: 175%;
+   
+ }
+
+ .imgwrap{
+  width: 95%; 
+}
+
+.imgwrap img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+}
+
+ .gallery-container{
+   display: flex;
+   order: 3;
+   height: auto;
+   flex-direction:row;
+   align-items: flex-start;
+  }
+ 
+ .gallery-box { 
+   width: 100%;
+   height: auto;
+   background-color: black;
+  }
+
+  .gallery-image-box{
+    width: 25%;
+    height: 15%;
+    padding: 3%;
+    margin : 5px;
+  }
+
+  img {
+   width: 100%;
+   max-width: 100%; 
+   max-height: 590px; 
+  }
+
+  .row {
+    display: flex;
+    padding: 0 4px;
+  }
+
+  .column {
+    flex: 40%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+  }
+
+  .intro-container{
+    display:flex;
+    order: 3;
+    justify-content: center;
+    flex-direction:column;
+    align-items:center;
+    background-color: black;
+   }
+
+  .intro-box{
+    width: 80%;
+    height: auto; 
+    flex:1;
+    align-content: space-around;
+    background-color:rgb(0, 0, 0); 
+    border: 3px rgb(255, 251, 195) solid;
+    margin-top: 2%;
+  }
+
+  .intro-text{
+    font-size: 47px; 
+    color:white;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+
+  }
+
+  .review-container{
+    display:flex;
+    order: 4;
+    flex-direction:row;
+    align-items:flex-start;
+    background-color: rgb(0, 0, 0);
+    border: 6px rgb(253, 226, 194) solid;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: wrap;
+  }
+
+
+  .img-review-box{
+    flex:1;
+    width: 30%;
+    height: auto; 
+    align-content: space-around;
+    background-color:rgb(255, 255, 255); 
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-bottom: 3%;
+  }
+
+  
+  .img-review-dimens{
+    display: block;
+    width: 100%;
+    height: auto;
+    top: 10px;
+  }
+
+  .articol-box{
+    width: 30%;
+    height: auto; 
+    flex:1;
+    background-color:rgb(0, 0, 0); 
+    border: 3px rgb(95, 218, 218) solid;
+    margin-left: 3%;
+    margin-bottom: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+
+  }
+
+  .articol-text{
+    color: white;
+    font-size: 17px;
+    word-spacing: 3px;
+    padding-right: 3%;
+  }
+
+  .titlu-articol-text{
+    font-size: 33px; 
+    outline-color: aliceblue;
+    outline-style: solid;
+    outline-width: 2px;
+    margin-right: 4%;
+  }
+
+  .textarea-text{
+
+    font-size: 20px;
+    color: white;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+    word-spacing: 3px;
+  }
+
+  
+  .textarea {
+    width: 75%;
+    height: 300px;
+    border: 2px rgb(241, 133, 8) solid;
+    margin-bottom: 7%;
+    margin-top: 11%;
+    background-color: rgb(0, 0, 0);
+    align-self: flex-end;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+
+  }
+
+  .editeaza-button{
+    background-color: rgb(0, 0, 0);
+    align-self: flex-end;
+    font-family: Georgia, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    border: 3px rgb(110, 21, 133) solid;
+    margin-bottom: 18%;
+    margin-right: 3%;
+    margin-left: 1%;
+    padding: 4px 4px;
+  }
+
+  .about-container{
+    display:flex;
+    order: 3;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction:column;
+    background-color: rgb(255, 248, 239);
+  }
+
+  .about-box{
+    width: 80%;
+    height: auto; 
+    flex:1;
+    align-content: space-around;
+    background-color:rgb(255, 248, 239); 
+    margin: 2%;
+  }
+
+  .about-button {
+    background-color: rgb(196, 255, 235);
+    color: black;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border: 5px black solid;
+    margin-left: 43%;
+    font-weight:bold;
+    padding: 8px 35px;
+  }
+  .about-button:hover {
+    background-color: rgb(223, 223, 223); 
+    color: black;
+  }
+
+  .button-text{
+    text-decoration: none;
+    text-align: left;
+    color: black;
+    display: block;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .about-text{
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-indent: 50px;
+    color: rgb(37, 37, 37);
+    display: block;
+    font-size: 25px;
+    font-family: Georgia, serif;
+    line-height: 1.3;
+  }
+
+  .form-container{
+    display: block;
+    order: 9;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    background-color: black;
+    border: 4px rgb(253, 226, 194) solid;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+  }
+
+  input[type=text], select {
+    width: 70%;
+    padding: 12px 20px;
+    margin-left: 3%;
+    margin-top:1%;
+    margin-bottom: 1%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 20%;
+    background-color: rgb(255, 254, 169);
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ffbe32;
+  }
+
+
+  .footer {
+    display: block;
+    order: 10;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+ }
+
+ .footer-text{
+  text-decoration: none;
+  text-align: justify;
+  letter-spacing: 1.5px;
+  word-spacing: 5px;
+  text-indent: 50px;
+  color: rgba(0, 0, 0, 0.63);
+  display: block;
+  font-size: 18px;
+  line-height: 1.3;
+ }
+
+ .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+@media screen and (max-width:768px){
+
+  .review-container{
+    flex-direction: column;
+    align-items:center;
+  }
+
+  .img-review-box{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-bottom: 3%;
+  }
+
+  .articol-box{
+    margin-top: 2%;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    margin-left: 3%;
+    margin-bottom: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+  }
+
+  .textarea, .textarea-text{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .navigation-container{
+    flex-direction: column;
+    margin-top:40px;
+
+  }
+
+  .title-text-block {
+    position: absolute;
+    width: 60%; 
+    margin-left: 0;
+    margin-right: 20%;
+    height: 40px;
+    top: 20px;
+  }
+
+  .title-text{
+   text-align: center;
+    font-family: "Times New Roman";
+    font-size: 30px;
+ }
+
+ .column {
+  flex: 100%;
+  max-width: 100%;
+}
+
+.gallery-container{
+  flex-direction:column; 
+  margin-top: 40px;
+ }
+
+ .nav-home-box{
+  width: 220px;
+  height: 25px; 
+  border: 5px white solid;
+  background-color: rgb(252, 162, 103);
+  margin-bottom: 15px;
+  margin-top: 5px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.nav-restaurants-box{
+  width: 200px;
+  height: 25px; 
+  border: 5px white solid;
+  background-color: rgb(151, 221, 248);
+  padding:10px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.nav-gallery-box{
+  width: 200px;
+  height: 25px; 
+  border: 5px white solid;
+  background-color: rgb(230, 154, 177);
+  padding:10px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.intro-container{
+margin-top:30px;
+ }
+
+.intro-box{
+  width: 70%;
+  height: 100px; 
+  flex:1;
+}
+
+.about-container{
+margin-top:55px;
+
+}
+
+.about-box{
+  width: 80%;
+  height: auto; 
+}
+
+.about-button {
+  font-size: 22px;
+  margin-left: 25%;
+}
+
+.about-text{
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-indent: 50px;
+  color: rgb(37, 37, 37);
+  display: block;
+  font-size: 15px;
+  font-family: Georgia, serif;
+  line-height: 1.3;
+}
+.intro-box{
+  width: 80%;
+  height: auto; 
+}
+
+.intro-text{
+  font-size: 20px; 
+}
+
+input[type=submit] {
+  width: 30%;
+  margin-left: 83px;
+}
+
+}
+
+@media screen and (min-width:1028px) and (max-width:1028px){
+  
+  .title-text-block {
+    position: absolute;
+    width: 60%; 
+    margin-left: 0;
+    margin-right: 20%;
+    height: auto;
+    top: 20px;
+  }
+
+  .title-text{
+   text-align: center;
+    font-family: "Times New Roman";
+    font-size: 20px;
+ }
+
+  .column {
+    flex: 30%;
+    max-width: 45%;
+    padding: 0 4px;
+  }
+
+  .row {
+    flex-direction: column;
+    display: flex;
+    padding: 0 4px;
+  }
+  
+}
